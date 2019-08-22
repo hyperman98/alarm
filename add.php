@@ -1,5 +1,5 @@
 <?
-require_once "components/auth.php";
+include("components/auth.php");
 
 function add_lead() {
     $leads['add'] = array(
