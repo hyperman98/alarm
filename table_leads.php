@@ -1,5 +1,5 @@
 <?
-require_once "components/auth.php";
+include("components/auth.php");
 $subdomain = 'xhuman80'; #Наш аккаунт - поддомен
 /* Формируем ссылку для запроса */
 $link = 'https://' . $subdomain . '.amocrm.ru/api/v2/leads';
